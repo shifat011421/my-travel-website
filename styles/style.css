@@ -1,0 +1,199 @@
+/* Common/Global Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+hr {
+    border-color: rgba(19, 19, 24, 0.10);
+    ;
+
+}
+
+main {
+    /* max-width: 992px; */
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Header Style */
+header {
+    /* max-width: 992px; */
+    max-width: 1170px;
+    margin: auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name-container img {
+    max-width: 60px;
+}
+
+.name-container h2 {
+    color: #131318;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.colored {
+    color: #FF5400;
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.link-container ul {
+    display: flex;
+}
+
+.link-container ul li {
+    list-style: none;
+    margin: 20px;
+
+}
+
+.link-container ul li:hover a {
+    color: #FF5400;
+}
+
+
+.link-container ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #424247;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.link-container .colored-home {
+    cursor: pointer;
+    font-weight: 700;
+    color: #FF5400;
+}
+
+.bar {
+    display: none;
+}
+
+
+/* Banner Section */
+
+.banner {
+    max-width: 1170px;
+    height: 500px;
+    margin: 20px auto;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.336) 10%, rgba(95, 95, 95, 0.263) 100%), url('../Images/Group13.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-description {
+    max-width: 80%;
+    margin: 24px auto;
+    color: #FFF;
+    text-align: center;
+    line-height: 26px;
+}
+
+.find-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+
+.find-section form input,
+.option {
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    width: 174px;
+    height: 52px;
+
+}
+
+.fa-magnifying-glass {
+    margin-right: 20px;
+}
+
+
+
+
+
+/* Main- popular-tour-section Style */
+.popular-tour-section {
+    margin: 100px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.popular-tour-content {
+    width: 40%;
+
+}
+
+.tour-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
